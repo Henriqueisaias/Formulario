@@ -124,15 +124,9 @@ textarea {
 
 @media screen and (max-width: 576px) {
   .form-body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-width: 100vw;
-  }
+    min-width: 85vw;
+    height: 100%; }
 
-  .btn {
-    width: 90vw;
-  }
 
   .check-box {
     display: block;
